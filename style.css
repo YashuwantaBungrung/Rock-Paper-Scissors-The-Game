@@ -1,0 +1,106 @@
+body{
+    background-color: #cdb4db;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+}
+
+.title{
+    padding-bottom: 80px;
+    padding-top: 70px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgba(39, 169, 169, 0.669);
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+button{
+    font-size: 12px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.rock-but{
+    padding: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.rock-but img{
+    width: 130px;
+    height: 130px;
+    border-radius: 45%;
+}
+
+.rock-but:hover{
+    transform: scale(1.2);
+}
+
+.paper-but{
+    padding: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.paper-but img{
+    width: 130px;
+    height: 130px;
+    border-radius: 45%;
+}
+
+.paper-but:hover{
+    transform: scale(1.2);
+}
+
+.scissors-but{
+    padding: 50px;
+    background-color: transparent;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.scissors-but img{
+    width: 130px;
+    height: 130px;
+    border-radius: 45%;
+}
+
+.scissors-but:hover{
+    transform: scale(1.2);
+}
+
+#scorecard{
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    align-items: start;
+    justify-content: center;
+}
+
+#scorecard div{
+    background-color:  rgba(0, 0, 0, 0.09);
+    padding: 40px;
+}
+
+.audiocon{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.audioplay{
+    padding-top: 20px;
+    text-align: center;
+}
